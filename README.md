@@ -8,3 +8,6 @@ We also tried exploring ai agent in the loop optimizations such as with the tool
 
 # Potential Optimization
 Although most of our explorations in improving DLlama were not fruitful, we did notice a github issue mentioning the removal of the words 'batchSize == 1u || ' from the nn-cpu-ops.cpp file brought roughly 50% performance gain so we consider exploring this for task 3 although this is such a minor change that we did not include the code with this modification here.
+
+# Run Scripts
+As for running we plan to either manually adjust the parameters in the dllama inference command as well as the dllama workers command. We also may refer to our parameter sweep python script included in this repo if time is permitting.
